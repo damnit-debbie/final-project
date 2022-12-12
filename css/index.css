@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: solid pink; */
+}
+#logo{
+    border-radius: 50%;
+    height: 100px;
+}
+nav{
+    /* border: solid black; */
+    display: inline-block;
+    width: 100%;
+    background-color: darkslateblue;
+}
+ul{
+    /* border: solid black; */
+    float: right;
+    width: 50%;
+    columns: 3;
+    list-style: none;
+    font-size: 25px;
+    text-align: center;    
+}
+li{
+    padding-top: 40px;
+    /* border: solid black; */
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+a:visited{
+    color: navy;
+}
+a:hover{
+    color: cornflowerblue;
+}
+#hero{
+    width: 100%;
+    height: 300px;
+}
+.shows{
+    border: solid black;
+    height: 500;
+    background-color: darkslateblue;
+}
+.show{
+    display: inline-block;
+    margin: 5% 10%;
+
+}
+#gemstones{
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-right: 5%;
+    margin: 2%;
+}
+.hero{
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1668630285968-fdc7a1b9f3f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyOXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    object-fit: cover;
+}
+.maps{
+    width: 100%;
+}
+
+#map{
+    border: solid black;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 200px;
+    padding-top: 2%;
+}
+.image{
+    height: 100px;
+    width: 160px;
+    box-shadow: 0px 10px 29px 23px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);;
+}
