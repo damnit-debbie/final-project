@@ -1,12 +1,14 @@
+body{
+    height: 100vh;
+}
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background: url()
 }
 #logo{
     border-radius: 50%;
-    height: 100px;
+    height: 75px;
 }
 nav{
     /* border: solid black; */
@@ -48,15 +50,27 @@ h1{
 .aboutimage{
     padding-top: 2%;
     /* border: solid black; */
+    height: 80%;
     text-align: center;
     background: linear-gradient(darkslateblue 60%, white 40%);
 }
 .friends{
     height: 300px;
+    box-shadow: 3px 4px 27px 2px rgba(0,0,0,0.51);
+-webkit-box-shadow: 3px 4px 27px 2px rgba(0,0,0,0.51);
+-moz-box-shadow: 3px 4px 27px 2px rgba(0,0,0,0.51);
 }
 p{
     padding-top: 2%;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+}
+footer{
+     margin-top: 2%;
+    background-color: darkslateblue;
+
+}
+.socialmedia{
+    /* border: solid black; */
 }
